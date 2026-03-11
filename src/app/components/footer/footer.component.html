@@ -1,9 +1,10 @@
 <section id="footer">
   <div class="inner">
     <h2 class="major">Get in touch</h2>
-    <p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce
-      tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus.
-      Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+    <p>
+      If you are reaching out for any inquiries or opportunities, please fill
+      out the form below and I will get back to you as soon as possible.
+    </p>
 
     <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
       <div class="fields">
@@ -17,7 +18,11 @@
         </div>
         <div class="field">
           <label for="footer-message">Message</label>
-          <textarea id="footer-message" formControlName="message" rows="4"></textarea>
+          <textarea
+            id="footer-message"
+            formControlName="message"
+            rows="4"
+          ></textarea>
         </div>
       </div>
       <ul class="actions">
@@ -27,15 +32,25 @@
 
     <ul class="contact">
       <li class="icon solid fa-home">
-        Untitled Inc<br />
-        1234 Somewhere Road Suite #2894<br />
-        Nashville, TN 00000-0000
+        Zachary Whitaker<br />
+        1200 Frank E Rodgers Blvd S<br />
+        Harrison, NJ 07029<br />
       </li>
-      <li class="icon solid fa-phone">(000) 000-0000</li>
-      <li class="icon solid fa-envelope"><a href="mailto:information@untitled.tld">information&#64;untitled.tld</a></li>
-      <li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-      <li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-      <li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+      <li class="icon solid fa-phone">(+1)484-387-6837</li>
+      <li class="icon solid fa-envelope">
+        <a href="mailto:zachary.whitaker@outlook.com"
+          >zachary.whitaker&#64;outlook.com</a
+        >
+      </li>
+      <li class="icon brands fa-linkedin">
+        <a href="#">https://www.linkedin.com/in/zachary-whitaker-972433221/</a>
+      </li>
+      <li class="icon brands fa-instagram">
+        <a href="#">https://www.instagram.com/crimsonstrike298</a>
+      </li>
+      <li class="icon brands fa-tiktok">
+        <a href="#">https://www.tiktok.com/&#64;crimsonstrike</a>
+      </li>
     </ul>
 
     <ul class="copyright">

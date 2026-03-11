@@ -67,18 +67,18 @@ export class HomeComponent {
       link: "https://github.com/MajaSLash/movie_list",
     },
     {
-      image: "assets/images/pic06.jpg",
-      title: "Ante fermentum",
+      image: "assets/images/facedata.jpg",
+      title: "Person Identification from Face Images",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.",
-      link: "#",
+        "(Actual face dataset is restricted) Machine learning project that utilizes convolutional neural networks (CNNs) to accurately identify individuals from facial images, achieving high precision and recall rates through extensive training on a diverse dataset of labeled faces.",
+      link: "https://github.com/MajaSLash/441PIFI",
     },
     {
-      image: "assets/images/pic07.jpg",
-      title: "Fusce consequat",
+      image: "assets/images/aidarustcode.jpg",
+      title: "Artificial Intelligence Digital Assistant (A.I.D.A)",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.",
-      link: "#",
+        "Open source AI assistant built with natural language processing (NLP) techniques in Python, Rust, and Shell. Designed to provide users with self-data ownership and custom-tuned intelligent responses and assistance across various tasks, leveraging llama2 for seamless interaction.",
+      link: "https://github.com/KhoaNguyen55/A.I.D.A",
     },
   ];
 }
