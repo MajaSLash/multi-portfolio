@@ -1,0 +1,58 @@
+<!-- Banner -->
+<section id="banner">
+  <div class="inner">
+    <div class="logo"><span class="icon fa-gem"></span></div>
+    <h2>Zachary Whitaker</h2>
+    <p>
+      Software & DevOps Engineer | Model & Actor | Product & Fitness Influencer
+    </p>
+  </div>
+</section>
+
+<!-- Wrapper -->
+<section id="wrapper">
+  <!-- Spotlight Sections -->
+  <section
+    *ngFor="let section of spotlights"
+    [id]="section.id"
+    [class]="section.styleClass"
+  >
+    <div class="inner">
+      <a [href]="section.link" class="image">
+        <img [src]="section.image" alt="" />
+      </a>
+      <div class="content">
+        <h2 class="major">{{ section.title }}</h2>
+        <p>{{ section.description }}</p>
+        <a [href]="section.link" class="special">Learn more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Grid -->
+  <section id="four" class="wrapper alt style1">
+    <div class="inner">
+      <h2 class="major">Project Showcase</h2>
+      <p>
+        Browse through some of my recent projects, showcasing my skills in
+        software development, DevOps, and more. Each project highlights my
+        ability to solve complex problems and deliver impactful solutions.
+      </p>
+
+      <section class="features">
+        <article *ngFor="let feature of features">
+          <a [href]="feature.link" class="image">
+            <img [src]="feature.image" alt="" />
+          </a>
+          <h3 class="major">{{ feature.title }}</h3>
+          <p>{{ feature.description }}</p>
+          <a [href]="feature.link" class="special">Learn more</a>
+        </article>
+      </section>
+
+      <ul class="actions">
+        <li><a href="#" class="button">Browse All</a></li>
+      </ul>
+    </div>
+  </section>
+</section>

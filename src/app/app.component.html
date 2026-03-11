@@ -1,0 +1,21 @@
+<div id="page-wrapper">
+
+  <!-- Header -->
+  <app-header
+    [isHomePage]="isHomePage"
+    (menuToggled)="toggleMenu()">
+  </app-header>
+
+  <!-- Menu -->
+  <app-menu
+    [isOpen]="isMenuOpen"
+    (closed)="closeMenu()">
+  </app-menu>
+
+  <!-- Page Content (routed) -->
+  <router-outlet></router-outlet>
+
+  <!-- Footer -->
+  <app-footer></app-footer>
+
+</div>

@@ -1,0 +1,13 @@
+<nav id="menu" [class.is-menu-visible]="isOpen">
+  <div class="inner">
+    <h2>Menu</h2>
+    <ul class="links">
+      <li><a routerLink="/" (click)="close()">Home</a></li>
+      <li><a routerLink="/generic" (click)="close()">Generic</a></li>
+      <li><a routerLink="/elements" (click)="close()">Elements</a></li>
+      <li><a href="#">Log In</a></li>
+      <li><a href="#">Sign Up</a></li>
+    </ul>
+    <a (click)="close()" class="close" style="cursor:pointer;">Close</a>
+  </div>
+</nav>
