@@ -38,7 +38,7 @@ export class HomeComponent {
       title: "Model & Actor",
       description:
         "In addition to my technical pursuits, I am also a model and actor. I have a passion for the arts and enjoy expressing myself through various creative mediums. Whether it's in front of the camera or on stage, I bring dedication and enthusiasm to every project I undertake in the world of modeling and acting.",
-      link: "https://www.instagram.com/crimsonstrike298",
+      link: "generic",
     },
     {
       id: "three",
@@ -47,7 +47,7 @@ export class HomeComponent {
       title: "Product & Fitness Influencer",
       description:
         "As a product and fitness influencer, I share my insights and experiences to inspire others on their wellness journeys. I review and promote products that align with a healthy lifestyle, while also providing fitness tips and motivation. My goal is to empower my audience to make informed choices and lead healthier, more active lives.",
-      link: "https://www.tiktok.com/@crimsonstrike",
+      link: "elements",
     },
   ];
 
