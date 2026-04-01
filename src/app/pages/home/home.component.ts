@@ -53,20 +53,6 @@ export class HomeComponent {
 
   features: FeatureArticle[] = [
     {
-      image: "assets/images/capstone2024highlevel.jpg",
-      title: "Autonomous Laser Tag",
-      description:
-        "Directed and led 6 different development teams to design and build fully autonomous robots with advanced AI capabilities for indoor laser tag, utilizing intelligent navigation, targeting, and object detection within a simulated environment.",
-      link: "https://github.com/MajaSLash/capstone2024/blob/main/Fall2024CapstonePoster_V3.pdf",
-    },
-    {
-      image: "assets/images/moviereclist.jpg",
-      title: "Movie Recommendation System (React)",
-      description:
-        "Fullstack application built with React and NodeJS that provides personalized movie recommendations based on user preferences and viewing history, utilizing collaborative filtering algorithms and a user-friendly interface for seamless interaction.",
-      link: "https://github.com/MajaSLash/movie_list",
-    },
-    {
       image: "assets/images/facedata.jpg",
       title: "Person Identification from Face Images",
       description:
@@ -79,6 +65,20 @@ export class HomeComponent {
       description:
         "Open source AI assistant built with natural language processing (NLP) techniques in Python, Rust, and Shell. Designed to provide users with self-data ownership and custom-tuned intelligent responses and assistance across various tasks, leveraging llama2 for seamless interaction.",
       link: "https://github.com/KhoaNguyen55/A.I.D.A",
+    },
+    {
+      image: "assets/images/capstone2024highlevel.jpg",
+      title: "Autonomous Laser Tag",
+      description:
+        "Directed and led 6 different development teams to design and build fully autonomous robots with advanced AI capabilities for indoor laser tag, utilizing intelligent navigation, targeting, and object detection within a simulated environment.",
+      link: "https://github.com/MajaSLash/capstone2024/blob/main/Fall2024CapstonePoster_V3.pdf",
+    },
+    {
+      image: "assets/images/moviereclist.jpg",
+      title: "Movie Recommendation System (React)",
+      description:
+        "Fullstack application built with React and NodeJS that provides personalized movie recommendations based on user preferences and viewing history, utilizing collaborative filtering algorithms and a user-friendly interface for seamless interaction.",
+      link: "https://github.com/MajaSLash/movie_list",
     },
   ];
 }
